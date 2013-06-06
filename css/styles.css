@@ -1,0 +1,39 @@
+.dropme {
+	height: 67px;
+	list-style-type: none;
+	background-color: #FFA;
+	text-align: center;
+	margin: 0 auto; 
+	padding: 0; 
+	width: 90%; }
+	.dropme .movable {
+		color: #fff;
+		background-color: #0FF;
+		display: inline-block;
+		width: 64px;
+		margin: 0; 
+		padding: 1em;
+		font-size: 1.4em; 
+		height: 18px; }
+		.dropme .movable:active { 
+			background-color: #F0F;}
+
+.displayp{
+	width: 200px;
+	float: left;
+}
+
+.visuallyhidden {
+	position: absolute; 
+	overflow: hidden; 
+	clip: rect(0 0 0 0); 
+	height: 1px; width: 1px; 
+	margin: -1px; padding: 0; border: 0;}
+
+.hoverWindow{
+	width: 96px;
+	height: 64px;
+	background-color: #666;
+	color: #DDD;
+	font-size: 50%;
+}
