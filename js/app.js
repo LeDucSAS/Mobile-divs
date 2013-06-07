@@ -38,7 +38,6 @@ jQuery(function($) {
 		content.find(".nameContainer").text(name);
 		content.find(".durationContainer").text(duration);
 		content.css({
-			position: "absolute",
 			top: posX+70,
 			left: posY+($(this).width()/2)-32
 		});
